@@ -54,8 +54,18 @@ export default function AnanyaSpotifyPortfolio() {
   const sidebarItems = [
     { key: "about", icon: Heart, label: "About Me", sub: "Playlist" },
     { key: "projects", icon: FolderKanban, label: "Projects", sub: "Playlist" },
-    { key: "experience", icon: BriefcaseBusiness, label: "Experience", sub: "Playlist" },
-    { key: "education", icon: GraduationCap, label: "Education", sub: "Playlist" },
+    {
+      key: "experience",
+      icon: BriefcaseBusiness,
+      label: "Experience",
+      sub: "Playlist",
+    },
+    {
+      key: "education",
+      icon: GraduationCap,
+      label: "Education",
+      sub: "Playlist",
+    },
     { key: "skills", icon: Wrench, label: "Skills", sub: "Playlist" },
   ];
 
@@ -65,21 +75,24 @@ export default function AnanyaSpotifyPortfolio() {
       title: "View My Projects",
       subtitle: "Check out what I've built",
       icon: "💻",
-      gradient: "linear-gradient(135deg, rgba(21,87,52,0.95), rgba(8,17,13,0.95))",
+      gradient:
+        "linear-gradient(135deg, rgba(21,87,52,0.95), rgba(8,17,13,0.95))",
     },
     {
       key: "experience",
       title: "My Experience",
       subtitle: "Where I've worked",
       icon: "💼",
-      gradient: "linear-gradient(135deg, rgba(95,24,24,0.95), rgba(18,18,18,0.95))",
+      gradient:
+        "linear-gradient(135deg, rgba(95,24,24,0.95), rgba(18,18,18,0.95))",
     },
     {
       key: "education",
       title: "Education",
       subtitle: "My coursework & degrees",
       icon: "🎓",
-      gradient: "linear-gradient(135deg, rgba(18,48,94,0.95), rgba(14,18,28,0.95))",
+      gradient:
+        "linear-gradient(135deg, rgba(18,48,94,0.95), rgba(14,18,28,0.95))",
     },
   ];
 
@@ -110,7 +123,8 @@ export default function AnanyaSpotifyPortfolio() {
       title: "I Told You Things",
       artist: "Gracie Abrams",
       album: "The Secret of Us (Deluxe)",
-      cover: "https://placehold.co/300x300/202020/ffffff?text=I+TOLD+YOU+THINGS",
+      cover:
+        "https://placehold.co/300x300/202020/ffffff?text=I+TOLD+YOU+THINGS",
     },
     {
       rank: 5,
@@ -135,9 +149,25 @@ export default function AnanyaSpotifyPortfolio() {
         "I’m a Computer Science student at NJIT interested in software engineering, AI, data systems, and product design.",
       cover: "💚",
       items: [
-        { number: 1, title: "Who I Am", subtitle: "Builder, problem-solver, and product-minded engineer", meta: "NJIT · Dorman Honors Scholar" },
-        { number: 2, title: "What I Like Building", subtitle: "AI tools, dashboards, workflow automation, and polished web apps", meta: "Software + systems + UX" },
-        { number: 3, title: "What Drives Me", subtitle: "Creating things that feel clear, useful, and impactful", meta: "Human-centered engineering" },
+        {
+          number: 1,
+          title: "Who I Am",
+          subtitle: "Builder, problem-solver, and product-minded engineer",
+          meta: "NJIT · Dorman Honors Scholar",
+        },
+        {
+          number: 2,
+          title: "What I Like Building",
+          subtitle:
+            "AI tools, dashboards, workflow automation, and polished web apps",
+          meta: "Software + systems + UX",
+        },
+        {
+          number: 3,
+          title: "What Drives Me",
+          subtitle: "Creating things that feel clear, useful, and impactful",
+          meta: "Human-centered engineering",
+        },
       ],
     },
     projects: {
@@ -145,42 +175,139 @@ export default function AnanyaSpotifyPortfolio() {
       description: "A playlist of the projects I’m most proud of.",
       cover: "💻",
       items: [
-        { number: 1, title: "Blend’d Beauty", subtitle: "AI-powered beauty recommendation app built with Flask, OpenAI API, and Firebase", meta: "1st Place · NJIT Forum" },
-        { number: 2, title: "Parthenon of Productivity", subtitle: "Productivity web app focused on accessibility, clean UI, and intuitive user flow", meta: "Best UI/UX · Girl Hacks 2025" },
-        { number: 3, title: "Connect Newark", subtitle: "Flask backend MVP with REST APIs and SQLite for a civic hackathon app", meta: "30+ testers" },
-        { number: 4, title: "Mini-C Like Language Development", subtitle: "Designed and tested a Mini-C interpreter in C++ using EBNF and lexical analysis", meta: "100+ unit tests" },
+        {
+          number: 1,
+          title: "Blend’d Beauty",
+          subtitle:
+            "AI-powered beauty recommendation app built with Flask, OpenAI API, and Firebase",
+          meta: "1st Place · NJIT Forum",
+        },
+        {
+          number: 2,
+          title: "Parthenon of Productivity",
+          subtitle:
+            "Productivity web app focused on accessibility, clean UI, and intuitive user flow",
+          meta: "Best UI/UX · Girl Hacks 2025",
+        },
+        {
+          number: 3,
+          title: "Connect Newark",
+          subtitle:
+            "Flask backend MVP with REST APIs and SQLite for a civic hackathon app",
+          meta: "30+ testers",
+        },
+        {
+          number: 4,
+          title: "Mini-C Like Language Development",
+          subtitle:
+            "Designed and tested a Mini-C interpreter in C++ using EBNF and lexical analysis",
+          meta: "100+ unit tests",
+        },
       ],
     },
     experience: {
       badge: "Experience Playlist",
-      description: "The roles that shaped how I think about engineering, operations, communication, and impact.",
+      description:
+        "The roles that shaped how I think about engineering, operations, communication, and impact.",
       cover: "💼",
       items: [
-        { number: 1, title: "PSEG", subtitle: "IT Disaster Recovery Governance Intern — built Power BI dashboards and automated workflows across 200+ IT systems", meta: "Jun 2025 — Present" },
-        { number: 2, title: "AI4SocialGood Lab", subtitle: "Undergraduate Research Assistant — developed latent-space classifiers for jailbreak detection", meta: "Jan 2025 — Present" },
-        { number: 3, title: "CodeNinjas", subtitle: "Lead Instructor — taught 100+ students programming and built engaging STEM curriculum", meta: "Mar 2022 — Sep 2025" },
-        { number: 4, title: "MoringaTech", subtitle: "IT Intern — created modular Java tools and improved API debugging and traceability", meta: "Jun 2023 — Sep 2023" },
+        {
+          number: 1,
+          title: "Wells Fargo",
+          subtitle:
+            "Software Engineer Intern - dynamic dashboard in React, Spring Boot, and SQL with LLM-powered summarization",
+          meta: "May 2026 — August 2026",
+        },
+        {
+          number: 2,
+          title: "PSEG",
+          subtitle:
+            "IT Disaster Recovery Governance Intern — built Power BI dashboards and automated workflows across 200+ IT systems",
+          meta: "Jun 2025 — May 2026",
+        },
+        {
+          number: 3,
+          title: "AI4SocialGood Lab",
+          subtitle:
+            "Undergraduate Research Assistant — developed latent-space classifiers for jailbreak detection",
+          meta: "Jan 2025 — Present",
+        },
+        {
+          number: 4,
+          title: "CodeNinjas",
+          subtitle:
+            "Lead Instructor — taught 100+ students programming and built engaging STEM curriculum",
+          meta: "Mar 2022 — Sep 2025",
+        },
+        {
+          number: 5,
+          title: "MoringaTech",
+          subtitle:
+            "IT Intern — created modular Java tools and improved API debugging and traceability",
+          meta: "Jun 2023 — Sep 2023",
+        },
       ],
     },
     education: {
       badge: "Education Playlist",
-      description: "The academic foundation behind my work in software, systems, and product development.",
+      description:
+        "The academic foundation behind my work in software, systems, and product development.",
       cover: "🎓",
       items: [
-        { number: 1, title: "New Jersey Institute of Technology", subtitle: "B.S. in Computer Science", meta: "Expected Dec 2027" },
-        { number: 2, title: "Dorman Honors Scholar", subtitle: "Full tuition merit scholarship", meta: "Ying Wu College of Computing" },
-        { number: 3, title: "Core Focus", subtitle: "Software engineering, AI systems, backend development, and data tools", meta: "Hands-on technical track" },
+        {
+          number: 1,
+          title: "New Jersey Institute of Technology",
+          subtitle: "B.S. in Computer Science",
+          meta: "Expected Dec 2027",
+        },
+        {
+          number: 2,
+          title: "Dorman Honors Scholar",
+          subtitle: "Full tuition merit scholarship",
+          meta: "Ying Wu College of Computing",
+        },
+        {
+          number: 3,
+          title: "Core Focus",
+          subtitle:
+            "Software engineering, AI systems, backend development, and data tools",
+          meta: "Hands-on technical track",
+        },
       ],
     },
     skills: {
       badge: "Skills Playlist",
-      description: "A stacked library of the languages, frameworks, and platforms I reach for most often.",
+      description:
+        "A stacked library of the languages, frameworks, and platforms I reach for most often.",
       cover: "🛠️",
       items: [
-        { number: 1, title: "Languages", subtitle: "Python, Java, C++, SQL, JavaScript, HTML/CSS, R", meta: "Core coding toolkit" },
-        { number: 2, title: "Frameworks & Libraries", subtitle: "React, Flask, Spring Boot, Pandas, NumPy, MATLAB, OpenAI API", meta: "App + data work" },
-        { number: 3, title: "Developer Tools", subtitle: "Git, Postman, MySQL, Swagger, Zipkin, VS Code, Eclipse, Xcode", meta: "Build + debug stack" },
-        { number: 4, title: "Enterprise Platforms", subtitle: "Power BI, Power Apps, Power Automate, SharePoint, ServiceNow", meta: "Automation + governance" },
+        {
+          number: 1,
+          title: "Languages",
+          subtitle: "Python, Java, C++, SQL, JavaScript, HTML/CSS, R",
+          meta: "Core coding toolkit",
+        },
+        {
+          number: 2,
+          title: "Frameworks & Libraries",
+          subtitle:
+            "React, Flask, Spring Boot, Pandas, NumPy, MATLAB, OpenAI API",
+          meta: "App + data work",
+        },
+        {
+          number: 3,
+          title: "Developer Tools",
+          subtitle:
+            "Git, Postman, MySQL, Swagger, Zipkin, VS Code, Eclipse, Xcode",
+          meta: "Build + debug stack",
+        },
+        {
+          number: 4,
+          title: "Enterprise Platforms",
+          subtitle:
+            "Power BI, Power Apps, Power Automate, SharePoint, ServiceNow",
+          meta: "Automation + governance",
+        },
       ],
     },
   };
@@ -188,7 +315,10 @@ export default function AnanyaSpotifyPortfolio() {
   const pageInfo = pages[currentPage];
   const playlist = playlistData[currentPage];
 
-  const libraryTitle = useMemo(() => (currentPage === "home" ? "Home" : pageInfo.title), [currentPage, pageInfo.title]);
+  const libraryTitle = useMemo(
+    () => (currentPage === "home" ? "Home" : pageInfo.title),
+    [currentPage, pageInfo.title],
+  );
 
   const styles = `
     :root {
@@ -398,21 +528,30 @@ export default function AnanyaSpotifyPortfolio() {
         </div>
 
         <div className="featured-section">
-          <button className="featured-card featured-projects" onClick={() => setCurrentPage("projects")}>
+          <button
+            className="featured-card featured-projects"
+            onClick={() => setCurrentPage("projects")}
+          >
             <span className="featured-icon">💻</span>
             <div className="featured-card-text">
               <h3>View My Projects</h3>
               <p>Check out what I've built</p>
             </div>
           </button>
-          <button className="featured-card featured-experience" onClick={() => setCurrentPage("experience")}>
+          <button
+            className="featured-card featured-experience"
+            onClick={() => setCurrentPage("experience")}
+          >
             <span className="featured-icon">💼</span>
             <div className="featured-card-text">
               <h3>My Experience</h3>
               <p>Where I've worked</p>
             </div>
           </button>
-          <button className="featured-card featured-education" onClick={() => setCurrentPage("education")}>
+          <button
+            className="featured-card featured-education"
+            onClick={() => setCurrentPage("education")}
+          >
             <span className="featured-icon">🎓</span>
             <div className="featured-card-text">
               <h3>Education</h3>
@@ -432,11 +571,19 @@ export default function AnanyaSpotifyPortfolio() {
               <div className="track-row" key={song.rank}>
                 <div className="track-index">
                   <span className="track-index-number">{song.rank}</span>
-                  <Play className="track-index-play" size={12} fill="currentColor" />
+                  <Play
+                    className="track-index-play"
+                    size={12}
+                    fill="currentColor"
+                  />
                 </div>
 
                 <div className="track-title-col">
-                  <img className="track-img" src={song.cover} alt={`${song.title} album cover`} />
+                  <img
+                    className="track-img"
+                    src={song.cover}
+                    alt={`${song.title} album cover`}
+                  />
                   <div className="track-info-col">
                     <div className="track-title">{song.title}</div>
                     <div className="track-subtitle">{song.artist}</div>
@@ -455,7 +602,10 @@ export default function AnanyaSpotifyPortfolio() {
   function PlaylistView() {
     return (
       <div className="playlist-section">
-        <div className="action-bar" style={{ paddingLeft: 0, paddingRight: 0, paddingBottom: 32 }}>
+        <div
+          className="action-bar"
+          style={{ paddingLeft: 0, paddingRight: 0, paddingBottom: 32 }}
+        >
           <div className="action-buttons-group">
             <button className="play-button" aria-label="Play">
               <Play size={22} fill="currentColor" style={{ marginLeft: 3 }} />
@@ -496,9 +646,17 @@ export default function AnanyaSpotifyPortfolio() {
 
           <div className="sidebar-wrapper">
             <div className="sidebar-top">
-              <button className="home-link" onClick={() => setCurrentPage("home")}>
+              <button
+                className="home-link"
+                onClick={() => setCurrentPage("home")}
+              >
                 <div className="spotify-circle">
-                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                  >
                     <path d="M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5zm4.817 15.126a.75.75 0 0 1-1.032.248c-2.828-1.728-6.39-2.12-10.588-1.163a.75.75 0 1 1-.333-1.463c4.598-1.046 8.544-.6 11.703 1.33a.75.75 0 0 1 .25 1.048zm1.473-3.278a.938.938 0 0 1-1.289.31c-3.238-1.99-8.171-2.567-11.999-1.403a.938.938 0 0 1-.546-1.794c4.374-1.329 9.813-.684 13.526 1.6.44.27.577.847.308 1.287zm.126-3.412C14.53 7.63 8.114 7.414 4.403 8.54a1.125 1.125 0 1 1-.654-2.153c4.26-1.293 11.346-1.043 15.841 1.627a1.125 1.125 0 0 1-1.174 1.922z" />
                   </svg>
                 </div>
@@ -550,11 +708,17 @@ export default function AnanyaSpotifyPortfolio() {
           <main className="main-content">
             <div className="main-shell">
               <div className="home-container">
-                <div className="home-header-gradient" style={{ "--hero-color": pageInfo.heroColor }} />
+                <div
+                  className="home-header-gradient"
+                  style={{ "--hero-color": pageInfo.heroColor }}
+                />
                 <div className="home-content">
                   <div className="sticky-topbar">
                     <div className="topbar-nav">
-                      <button className="circle-icon-button" onClick={() => setCurrentPage("home")}>
+                      <button
+                        className="circle-icon-button"
+                        onClick={() => setCurrentPage("home")}
+                      >
                         <ChevronLeft size={20} />
                       </button>
                       <button className="circle-icon-button">
@@ -576,11 +740,22 @@ export default function AnanyaSpotifyPortfolio() {
           <div className="player-footer-inner">
             <div className="player-now">
               <div className="player-now-art">
-                <img src={favoriteSongs[0].cover} alt="Current track album art" />
+                <img
+                  src={favoriteSongs[0].cover}
+                  alt="Current track album art"
+                />
               </div>
               <div style={{ minWidth: 0 }}>
-                <div className="player-now-title">{currentPage === "home" ? favoriteSongs[0].title : pageInfo.title}</div>
-                <div className="player-now-sub">{currentPage === "home" ? favoriteSongs[0].artist : "Ananya Raghunath"}</div>
+                <div className="player-now-title">
+                  {currentPage === "home"
+                    ? favoriteSongs[0].title
+                    : pageInfo.title}
+                </div>
+                <div className="player-now-sub">
+                  {currentPage === "home"
+                    ? favoriteSongs[0].artist
+                    : "Ananya Raghunath"}
+                </div>
               </div>
             </div>
 
