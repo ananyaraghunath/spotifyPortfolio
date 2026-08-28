@@ -1,5 +1,5 @@
 import ananyaImg from "./assets/ananya.jpg";
-import HIRF from "./assets/HIRF.jpeg";
+import HIRF from "./assets/HIRF.JPG";
 import { isValidElement, useMemo, useState } from "react";
 import {
   Home,

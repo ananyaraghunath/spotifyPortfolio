@@ -156,10 +156,41 @@ export default function AnanyaSpotifyPortfolio() {
       description: "The roles that shaped how I think about engineering, operations, communication, and impact.",
       cover: "💼",
       items: [
-        { number: 1, title: "PSEG", subtitle: "IT Disaster Recovery Governance Intern — built Power BI dashboards and automated workflows across 200+ IT systems", meta: "Jun 2025 — Present" },
-        { number: 2, title: "AI4SocialGood Lab", subtitle: "Undergraduate Research Assistant — developed latent-space classifiers for jailbreak detection", meta: "Jan 2025 — Present" },
-        { number: 3, title: "CodeNinjas", subtitle: "Lead Instructor — taught 100+ students programming and built engaging STEM curriculum", meta: "Mar 2022 — Sep 2025" },
-        { number: 4, title: "MoringaTech", subtitle: "IT Intern — created modular Java tools and improved API debugging and traceability", meta: "Jun 2023 — Sep 2023" },
+        {
+          number: 1,
+          title: "Wells Fargo",
+          subtitle:
+            "Software Engineer Intern - dynamic dashboard in React, Spring Boot, and SQL with LLM-powered summarization",
+          meta: "May 2026 — August 2026",
+        },
+        {
+          number: 2,
+          title: "PSEG",
+          subtitle:
+            "IT Disaster Recovery Governance Intern — built Power BI dashboards and automated workflows across 200+ IT systems",
+          meta: "Jun 2025 — May 2026",
+        },
+        {
+          number: 3,
+          title: "AI4SocialGood Lab",
+          subtitle:
+            "Undergraduate Research Assistant — developed latent-space classifiers for jailbreak detection",
+          meta: "Jan 2025 — Present",
+        },
+        {
+          number: 4,
+          title: "CodeNinjas",
+          subtitle:
+            "Lead Instructor — taught 100+ students programming and built engaging STEM curriculum",
+          meta: "Mar 2022 — Sep 2025",
+        },
+        {
+          number: 5,
+          title: "MoringaTech",
+          subtitle:
+            "IT Intern — created modular Java tools and improved API debugging and traceability",
+          meta: "Jun 2023 — Sep 2023",
+        },
       ],
     },
     education: {
