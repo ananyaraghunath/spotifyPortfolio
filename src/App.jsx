@@ -148,7 +148,7 @@ export default function AnanyaSpotifyPortfolio() {
       badge: "Verified Engineer",
       description:
         "I’m a Computer Science student at NJIT interested in software engineering, AI, data systems, and product design.",
-      cover: "/assets/headshot.jpg",
+      cover: ananyaImg,
       isImage: true,
       items: [
         {
