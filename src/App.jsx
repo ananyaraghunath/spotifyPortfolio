@@ -1,4 +1,4 @@
-import ananyaImg from "./assets/ananya.jpg";
+import ananyaImg from "./assets/headshot.jpg";
 import HIRF from "/Users/ananya/spotifyportfolio/src/assets/HIRF.JPG";
 import { isValidElement, useMemo, useState } from "react";
 import {
@@ -148,7 +148,7 @@ export default function AnanyaSpotifyPortfolio() {
       badge: "Verified Engineer",
       description:
         "I’m a Computer Science student at NJIT interested in software engineering, AI, data systems, and product design.",
-      cover: "/assets/ananya copy.jpeg",
+      cover: "/assets/headshot.jpg",
       isImage: true,
       items: [
         {
